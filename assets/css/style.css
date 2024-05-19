@@ -707,6 +707,19 @@ section .container {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.WordPress_Website_Designer li, .lead_generator li, .Latex_coder li{
+  list-style: none;
+  text-align: left;
+  line-height: 2;
+}
+
+.WordPress_Website_Designer li:hover, .lead_generator li:hover, .Latex_coder li:hover{
+	border-bottom: 2px solid white;
+	border-width: 2px; 
+  transition: .4s;
+}
+
+
 .services .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
